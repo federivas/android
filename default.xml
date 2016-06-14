@@ -17,13 +17,12 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
 <!-- BEGIN SANDPOX'S DEVICE -->
   <!-- KYLEPROXX -->
-  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_k
-  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung
-  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung
-  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung_kyleprods" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
 <!-- END SANDPOX'S DEVICE -->
 
 <!-- BEGIN CYANOGENMOD -->
