@@ -18,6 +18,14 @@
            sync-c="true"
            sync-j="4" />
 
+<!-- BEGIN SANDPOX'S DEVICE -->
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_k
+  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung
+<!-- END SANDPOX'S DEVICE -->
+
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
